@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'Angular Reactive Workshop';
+  title = 'ION PROJECTS';
   isLoggedIn$: Observable<boolean> = this.authService.isAuthenticated$;
   isLoggedIn;
 
