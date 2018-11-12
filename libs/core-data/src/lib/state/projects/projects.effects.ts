@@ -4,7 +4,17 @@ import { map, switchMap } from 'rxjs/operators';
 
 import { Project } from './../../projects/project.model';
 import { ProjectsService } from './../../projects/projects.service';
-import { AddProject, LoadProjects, ProjectAdded, ProjectsActionTypes, ProjectsLoaded, UpdateProject, ProjectUpdated, DeleteProject, ProjectDeleted } from './projects.actions';
+import {
+  AddProject,
+  DeleteProject,
+  LoadProjects,
+  ProjectAdded,
+  ProjectDeleted,
+  ProjectsActionTypes,
+  ProjectsLoaded,
+  ProjectUpdated,
+  UpdateProject,
+} from './projects.actions';
 
 @Injectable({ providedIn: 'root' })
 export class ProjectsEffects {
